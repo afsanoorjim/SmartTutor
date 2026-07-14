@@ -2,6 +2,9 @@ from django.contrib.auth.models import BaseUserManager
 
 
 class CustomUserManager(BaseUserManager):
+    """
+    Custom manager for Tutor model using email instead of username.
+    """
     def create_user(self, email, name, password=None, **extra_fields):
         if not email:
             raise ValueError("The Email field must be set")
