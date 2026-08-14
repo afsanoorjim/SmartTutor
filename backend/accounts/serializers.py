@@ -15,3 +15,4 @@ class RegisterTutorSerializer(serializers.ModelSerializer):
             password=validated_data['password'],
         )
         return tutor
+
