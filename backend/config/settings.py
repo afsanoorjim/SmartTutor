@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-#cf4!)_@+*^=j)g&6#gl745z1=-&9us2yydv&r+$v8=d8+#y-0
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["localhost", "smarttutor-b713.onrender.com"]
 
 
 # Application definition
